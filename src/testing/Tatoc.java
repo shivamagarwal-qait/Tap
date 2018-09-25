@@ -63,6 +63,7 @@ public class Tatoc
 		driver.findElement(By.id("submit")).click();
 		driver.switchTo().window(parentWindow);
 		driver.findElement(By.linkText("Proceed")).click();
+		System.out.print("Shivam");
 
 
 		driver.findElement(By.linkText("Generate Token")).click();
